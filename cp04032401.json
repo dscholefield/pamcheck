@@ -1,0 +1,17 @@
+{
+    "rundate" : "040324",
+    "runcount" : "01",
+    "runstart" : "150421",
+    "runend" : "152219",
+    "admingroups" : ["group1", "group2", "group3"],
+    "newgoups" : ["group2"],
+    "groupsgone" : ["group4"],
+    "usersfound" : [{ "group1" : ["user1", "user2"]},
+                    { "group2" : ["user2", "user3"]}],
+    "usersnew" : [ { "group1" : ["user1"]},
+                    { "group2" : ["user2", "user3"]}],
+    "usersgone": [  { "group1" : ["user1", "user2"]},
+                    { "group2" : ["user2", "user3"]}],
+    "log" : [   ["1", "info", "something happened"],
+                ["2", "error", "something bad happened"]]
+}
