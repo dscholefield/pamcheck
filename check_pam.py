@@ -189,10 +189,11 @@ if __name__ == "__main__":
                     admin_groups[group_name] = []
                 admin_groups[group_name].append(name)
         user_check_count = user_check_count + 1
-        if user_check_count > 10:
+        if user_check_count > 10000:
             break
     
     # now to dump out the admin groups and their users
+    print(f"{user_check_count} users checked")
     for group in admin_groups:
         print(f"Admin group: {group}")
         for user in admin_groups[group]:

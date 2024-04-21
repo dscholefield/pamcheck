@@ -1,4 +1,4 @@
 {
-	"admingroups" : ["admin", "sentinel poc", "AdminAgents", "Core Platform Support", "SSO Users", "AAD DC Administrators" ]
+	"admingroups" : ["admin", "sentinel poc", "AdminAgents", "Admin_Infrastructure", "ZaccountsTeam", "AAD DC Administrators" ]
 }
 
